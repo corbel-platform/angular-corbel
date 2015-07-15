@@ -2,9 +2,9 @@
   'use strict';
 
   /**
-  * @name angularKite
+  * @name angularCorbel
   * @description
-  * kite plugin for AngularJS
+  * Corbel module for AngularJS
   */
   angular
   .module('angular-corbel', []);
