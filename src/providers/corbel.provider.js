@@ -28,7 +28,7 @@
 
       provider.$get = function() {
           if(!corbel){
-            throw Error('window.corbel is not defined. Did you forget to load corbel-js script in your index.html?');
+            throw new Error('window.corbel is not defined. Did you forget to load corbel-js script in your index.html?');
           }
           return corbel.getDriver(provider.config);
       };
