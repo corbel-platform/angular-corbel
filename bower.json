@@ -1,0 +1,13 @@
+{
+    "name": "angular-corbel",
+    "version": "0.0.10",
+    "dependencies": {
+        "angular": "1.4.2",
+        "corbel-js": "~0.0.10"
+    },
+    "devDependencies": {
+        "angular-mocks": "1.4.2",
+        "angular-scenario": "1.4.2"
+    },
+    "main": "dist/angular-corbel.js"
+}
