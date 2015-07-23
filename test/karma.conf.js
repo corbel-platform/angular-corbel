@@ -32,6 +32,12 @@ module.exports = function(config) {
         // web server port
         port: 8080,
 
+        preprocessors: {
+          'src/**/*.js': 'coverage'
+        },
+
+        reporters: ['spec', 'coverage'],
+
         // Start these browsers, currently available:
         // - Chrome
         // - ChromeCanary
@@ -47,6 +53,8 @@ module.exports = function(config) {
         // Which plugins to enable
         plugins: [
             'karma-phantomjs-launcher',
+            'karma-coverage',
+            'karma-spec-reporter',
             'karma-jasmine'
         ],
 
