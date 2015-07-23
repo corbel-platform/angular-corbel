@@ -61,7 +61,7 @@ module.exports = function(grunt) {
                 }
             },
             dist: {
-                src: ['src/angularCorbel.module.js', 'src/*/*.js'],
+                src: ['src/angular-corbel.module.js', 'src/*/*.js'],
                 dest: 'dist/angular-corbel.js',
             },
         },
