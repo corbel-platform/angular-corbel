@@ -2,10 +2,10 @@
   'use strict';
 
   /**
-  * @name angularCorbel
-  * @description
-  * Corbel module for AngularJS
-  */
-  angular
-  .module('angular-corbel', []);
+   * @name angularCorbel
+   * @description
+   * Corbel module for AngularJS
+   */
+  angular.module('angular-corbel', []);
+
 })();
