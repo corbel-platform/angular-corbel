@@ -1,29 +1,7 @@
-'use strict';
-// Source: src/angular-corbel.module.js
-(function() {
-/**
-  * @name angularCorbel
-  * @description
-  * Corbel module for AngularJS
-  */
-  angular
-  .module('angular-corbel', []);
-})();
-
-// Source: src/factory/corbel.factory.js
 (function(corbel) {
+  'use strict';
 
-  angular.module('angular-corbel').factory('corbel', corbelFactory);
-
-  function corbelFactory() {
-    return corbel;
-  }
-
-})(window.corbel);
-
-// Source: src/providers/corbel-driver.provider.js
-(function(corbel) {
-/**
+  /**
    * @name angular-corbel.corbelProvier
    * @description
    * Provider to configure and get Corbel Driver.

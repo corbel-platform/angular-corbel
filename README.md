@@ -19,7 +19,7 @@ app.config(function(corbelProvider){
 
 
 // Inject the corbel driver
-app.controller('myCtrl', ['corbel', function(corbel){
+app.controller('myCtrl', ['corbel', function(corbel) {
     //use corbel here!
-  });
+});
 ```
