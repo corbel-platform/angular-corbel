@@ -2,7 +2,7 @@
   "name": "angular-corbel",
   "version": "0.0.10",
   "dependencies": {
-    "corbel-js": "~0.0.10",
+    "corbel-js": "~0.0.12",
     "angular": "~1.4.3"
   },
   "devDependencies": {
