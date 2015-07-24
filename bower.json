@@ -1,6 +1,6 @@
 {
   "name": "angular-corbel",
-  "version": "0.0.10",
+  "version": "0.0.12",
   "dependencies": {
     "corbel-js": "~0.0.12",
     "angular": "~1.4.3"
