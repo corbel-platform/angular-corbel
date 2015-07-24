@@ -1,5 +1,10 @@
 # corbel-js wrapper for Angular #
 
+[![Build Status](https://travis-ci.org/corbel-platform/angular-corbel.svg?branch=master)](https://travis-ci.org/corbel-platform/angular-corbel)
+[![Bower version](https://badge.fury.io/bo/angular-corbel.svg)](http://badge.fury.io/bo/angular-corbel)
+[![Dependency Status](https://david-dm.org/corbel-platform/angular-corbel.svg)](https://david-dm.org/corbel-platform/angular-corbel)
+[![devDependency Status](https://david-dm.org/corbel-platform/angular-corbel/dev-status.svg)](https://david-dm.org/corbel-platform/angular-corbel#info=devDependencies)
+
 ## Usage ##
 
 ```

@@ -2,12 +2,12 @@
 // Source: src/angular-corbel.module.js
 (function() {
 /**
-  * @name angularCorbel
-  * @description
-  * Corbel module for AngularJS
-  */
-  angular
-  .module('angular-corbel', []);
+   * @name angularCorbel
+   * @description
+   * Corbel module for AngularJS
+   */
+  angular.module('angular-corbel', []);
+
 })();
 
 // Source: src/factory/corbel.factory.js
