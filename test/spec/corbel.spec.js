@@ -9,10 +9,10 @@ describe('angular-corbel', function() {
   beforeEach(function() {
     // Initialize the service provider
     // by injecting it to a fake module's config block
-    var fakeModule = angular.module('test.module', function() {});
-    fakeModule.config(function(corbelDriverProvider) {
-      provider = corbelDriverProvider;
-    });
+    angular.module('test.module', [])
+      .config(function(corbelDriverProvider) {
+        provider = corbelDriverProvider;
+      });
     // Initialize test.app injector
     module('angular-corbel', 'test.module');
 

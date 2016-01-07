@@ -76,10 +76,19 @@ module.exports = function(grunt) {
         configFile: 'test/karma.conf.js',
         autoWatch: true
       }
+    },
+
+    versioncheck: {
+      options: {
+        skip: ['angular', 'angular-mocks'],
+        hideUpToDate: true
+      }
     }
+
   });
 
   grunt.registerTask('test', [
+    'versioncheck',
     'clean',
     'karma:unit'
   ]);
