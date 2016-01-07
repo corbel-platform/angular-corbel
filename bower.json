@@ -1,12 +1,30 @@
 {
   "name": "angular-corbel",
   "version": "0.3.0",
+  "main": "dist/angular-corbel.js",
+  "license": "Apache-2.0",
+  "keywords": [
+    "angular",
+    "corbel"
+  ],
+  "author": {
+    "name": "Devialab",
+    "email": "hello@devialab.com",
+    "url": "http://devialab.com/"
+  },
+  "homepage": "https://github.com/corbel-platform/angular-corbel",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:corbel-platform/angular-corbel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/corbel-platform/angular-corbel/issues"
+  },
   "dependencies": {
     "corbel-js": "~0.3.0",
     "angular": "~1.4.7"
   },
   "devDependencies": {
     "angular-mocks": "~1.4.7"
-  },
-  "main": "dist/angular-corbel.js"
+  }
 }
