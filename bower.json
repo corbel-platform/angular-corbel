@@ -21,7 +21,7 @@
     "url": "https://github.com/corbel-platform/angular-corbel/issues"
   },
   "dependencies": {
-    "corbel-js": "~0.3.0",
+    "corbel-js": "~0.3.3",
     "angular": "~1.4.7"
   },
   "devDependencies": {
