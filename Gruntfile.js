@@ -82,7 +82,8 @@ module.exports = function(grunt) {
       options: {
         skip: ['angular', 'angular-mocks'],
         hideUpToDate: true
-      }
+      },
+      all: {}
     }
 
   });
